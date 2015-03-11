@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven Bundle Plugin
+Built-By: jesse
+Build-Jdk: 1.7.0_65
+Implementation-Vendor: Eclipse.org - Jetty
+Implementation-Version: 9.3.0.M0
+url: http://www.eclipse.org/jetty
+Bundle-Classpath: .
+Tool: Bnd-1.15.0
+Bundle-Name: Jetty :: Aggregate :: All core Jetty
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-Copyright: Copyright (c) 2008-2014 Mort Bay Consulting Pty. Ltd.
+Bundle-Vendor: Eclipse Jetty Project
+Bundle-Version: 9.3.0.M0
+Bnd-LastModified: 1411601335099
+Bundle-ManifestVersion: 2
+Bundle-Description: Jetty module for Jetty :: Aggregate :: All core Je
+ tty
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www
+ .eclipse.org/org/documents/epl-v10.php
+Import-Package: javax.annotation;version="[1.2,2)",javax.annotation.se
+ curity;version="[1.2,2)",javax.imageio,javax.mail;version="[1.4,2)";r
+ esolution:=optional,javax.management,javax.management.modelmbean,java
+ x.management.remote,javax.naming,javax.naming.spi,javax.net.ssl,javax
+ .security.auth,javax.security.auth.callback,javax.security.auth.messa
+ ge;version="[1.0,2)",javax.security.auth.message.callback;version="[1
+ .0,2)",javax.security.auth.message.config;version="[1.0,2)",javax.sec
+ urity.auth.message.module;version="[1.0,2)",javax.servlet;version="[3
+ .1,4)",javax.servlet.annotation;version="[3.1,4)",javax.servlet.descr
+ iptor;version="[3.1,4)",javax.servlet.http;version="[3.1,4)",javax.sq
+ l,javax.transaction;version="[1.2,2)";resolution:=optional,javax.webs
+ ocket;version="[1.0,2)",javax.websocket.server;version="[1.0,2)",java
+ x.xml.parsers,org.eclipse.jetty.alpn,org.eclipse.jetty.npn,org.ietf.j
+ gss,org.objectweb.asm;version="[5.0,6)",org.slf4j;version="[1.6,2)";r
+ esolution:=optional,org.slf4j.helpers;version="[1.6,2)";resolution:=o
+ ptional,org.slf4j.spi;version="[1.6,2)";resolution:=optional,org.xml.
+ sax,org.xml.sax.helpers
+Bundle-SymbolicName: org.eclipse.jetty.aggregate.all
+Bundle-DocURL: http://www.eclipse.org/jetty
+
